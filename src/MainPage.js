@@ -10,12 +10,12 @@ const MainPage = (props) => {
     return (
         <>
             <h2 className="text-xl">
-                This site shows data from the 2020 Fall and 2021 Spring semesters.
+                This site shows data from the 2021 Fall semester.
             </h2>
             <br />
             <div id="total">
                 <h4 className="text-2xl">
-                    Total Positive Cases Since August 19 (First Day of Classes)
+                    Total Positive Cases Since August 23
                 </h4>
                 <div className="Section">
                     <Card
@@ -50,7 +50,7 @@ const MainPage = (props) => {
                     />
                 </div>
             </div>
-            <br />
+            { /* <br />
             <div id="quarantine">
                 <h4 className="text-2xl">Number of Students in Quarantine</h4>
                 <h5 className="text-base">
@@ -117,7 +117,7 @@ const MainPage = (props) => {
                         link="/beds"
                     />
                 </div>
-            </div>
+            </div> */}
             <GoatCounter />
         </>
     );

@@ -140,7 +140,7 @@ function App() {
                             })}
                         />
                     </Route>
-                    <Route path="/quarantineoncampus">
+                    {/* <Route path="/quarantineoncampus">
                         <History
                             name="Quarantine On Campus"
                             data={data.map((d) => {
@@ -188,7 +188,7 @@ function App() {
                                 return { value: d.beds_available, date: d.last_updated };
                             })}
                         />
-                    </Route>
+                    </Route> */}
                 </Switch>
                 <br />
                 <p>
